@@ -1,6 +1,5 @@
-// import { useCallback, useState } from 'react';
 import './Map.scss';
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
+import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 
 const containerStyle = {
   width: '100%',
@@ -8,37 +7,38 @@ const containerStyle = {
 };
 
 const center = {
-  lat: -3.745,
-  lng: -38.523
+  lat: -19.91877543638059,
+  lng: -43.93870860610007
 };
 
 function Map() {
-  // const [map, setMap] = useState(null);
-
-  // const onLoad = useCallback(function callback(map) {
-  //   const bounds = new window.google.maps.LatLngBounds(center);
-  //   map.fitBounds(bounds);
-  // }, [])
-
-  // const onUnmount = useCallback(function callback(map) {
-
-  // }, [])
+  const { isLoaded } = useJsApiLoader({
+    id: 'google-map-script',
+    googleMapsApiKey: "AIzaSyDFSOp0MewUfhamxmuxlp4mR8ydNo1Xfg4"
+  })
 
   return (
     <>
       <div className="map flex-grow-1">
-        <LoadScript
-          googleMapsApiKey="AIzaSyDFSOp0MewUfhamxmuxlp4mR8ydNo1Xfg4"
-          libraries={["places"]}
-        >
-          <GoogleMap
-            mapContainerStyle={containerStyle}
-            center={center}
-            zoom={14}
-          >
-            <></>
-          </GoogleMap>
-        </LoadScript>
+        {
+          isLoaded ? (
+            <GoogleMap
+              mapContainerStyle={containerStyle}
+              center={center}
+              zoom={17}
+            >
+              {
+                <Marker position={center} options={{
+                  label: {
+                    text: "Hello world",
+                    className: "map__marker-label"
+                  }
+                }} />
+              }
+              <></>
+            </GoogleMap>
+          ) : <></>
+        }
       </div>
     </>
   )
