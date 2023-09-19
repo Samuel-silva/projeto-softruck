@@ -1,12 +1,14 @@
 import './Main.scss';
 import Sidebar from "./Sidebar/Sidebar";
+import Map from './Map/Map';
 
 function Main() {
   return (
     <main className="main">
-      <Sidebar />
-
-      <div className="map"></div>
+      <div className="d-flex main__container w-100">
+        <Sidebar />
+        <Map />
+      </div>
     </main>
   )
 }

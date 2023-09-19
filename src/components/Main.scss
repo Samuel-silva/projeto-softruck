@@ -1,4 +1,8 @@
 .main {
     height: calc(100vh - 82px - 30px);
     min-height: 500px;
+
+    &__container {
+        height: 100%;
+    }
 }
