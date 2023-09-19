@@ -1,0 +1,11 @@
+.sidebar {
+    height: 100%;
+    max-width: 250px;
+    background: #f5f7f9;
+
+    &__item {
+        .accordion-button {
+            padding: 5px;
+        }
+    }
+}
