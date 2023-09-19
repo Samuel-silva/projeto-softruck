@@ -3,7 +3,7 @@ import logo from '../image/logo.svg';
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header bg-black">
       <div className="container-fluid">
         <div className="logo d-flex py-3 align-items-center justify-content-start">
           <div className='logo__container d-flex'>
