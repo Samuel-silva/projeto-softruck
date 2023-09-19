@@ -1,0 +1,10 @@
+.header {
+    background: #32325d;
+}
+.logo {
+    &__container {
+        height: 50px;
+    }
+
+    &__img { height: 100%; }
+}
