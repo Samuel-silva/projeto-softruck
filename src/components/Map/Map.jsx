@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react';
 import './Map.scss';
+import pin from "../../image/cars.png";
+import { useEffect, useState } from 'react';
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 
 const containerStyle = {
@@ -51,17 +52,27 @@ function Map(props) {
         {
           isLoaded ? (
             <GoogleMap
-              mapContainerStyle={containerStyle}
               center={initialMarker}
+              mapContainerStyle={containerStyle}
               zoom={17}
             >
               {
-                <Marker position={initialMarker} options={{
-                  label: {
-                    text: "Hello world",
-                    className: "map__marker-label"
-                  }
-                }} />
+                <Marker
+                  position={initialMarker}
+                  // options={{
+                  //   label: {
+                  //     text: "Hello world",
+                  //     className: "map__marker-label"
+                  //   }
+                  // }}
+                  icon={{
+                    anchor: { x: 25, y: 26 },
+                    origin: { x: 0, y: 0 },
+                    size: { width: 50.3, height: 50.3 },
+                    scaledSize: { width: 6080, height: 50.3 },
+                    url: pin
+                  }}
+                />
               }
               <></>
             </GoogleMap>
