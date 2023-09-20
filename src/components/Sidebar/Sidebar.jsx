@@ -46,7 +46,6 @@ function Sidebar(props) {
   } else {
     const items = infoVehicle?.map((data, index) => {
       const links = data.courses.map((course, indexCourse) => {
-        console.log(index, indexCourse)
         return (
           <ListGroup.Item action key={indexCourse} data-index={indexCourse} onClick={_ => createRoute(index, indexCourse)}>
             {dateFormat(course.start_at)}

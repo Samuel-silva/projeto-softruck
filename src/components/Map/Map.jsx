@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import './Map.scss';
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 
@@ -11,11 +12,38 @@ const center = {
   lng: -43.93870860610007
 };
 
-function Map() {
+function Map(props) {
+  const { dataCourse } = props;
+  const [positions, setPositions] = useState([])
+  const [initialMarker, setInitialMarker] = useState(center)
+
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
     googleMapsApiKey: "AIzaSyDFSOp0MewUfhamxmuxlp4mR8ydNo1Xfg4"
   })
+
+  function getCoordinates(data) {
+    const list = [];
+    const newInitial = {};
+
+    if (data.length > 0) {
+      data.forEach(coordinate => {
+        const { latitude: lat, longitude: lng } = coordinate;
+        list.push({ lat, lng });
+      })
+
+      setPositions(list);
+      Object.assign(newInitial, {
+        lat: list[0].lat,
+        lng: list[0].lng,
+      });
+      setInitialMarker(newInitial);
+    }
+  }
+
+  useEffect(function () {
+    getCoordinates(dataCourse);
+  }, [dataCourse]);
 
   return (
     <>
@@ -24,11 +52,11 @@ function Map() {
           isLoaded ? (
             <GoogleMap
               mapContainerStyle={containerStyle}
-              center={center}
+              center={initialMarker}
               zoom={17}
             >
               {
-                <Marker position={center} options={{
+                <Marker position={initialMarker} options={{
                   label: {
                     text: "Hello world",
                     className: "map__marker-label"
