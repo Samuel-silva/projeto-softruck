@@ -1,0 +1,12 @@
+.map {
+    &__marker-label {
+        background: #212529;
+        color: #FFF !important;
+        padding: 4px;
+        margin-top: -50px !important;
+
+        &--hide {
+            visibility: hidden;
+        }
+    }
+}

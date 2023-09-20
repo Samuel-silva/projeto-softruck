@@ -18,12 +18,20 @@ const spriteWidthScale = 18240 / 3;
 const spriteHeightScale = 151 / 3;
 const widthOnlyCarIcon = 152;
 
+const initialLabel = {
+  label: {
+    text: "",
+    className: "map__marker-label--hide"
+  }
+}
+
 function Map(props) {
   const { dataCourse } = props;
   const [positions, setPositions] = useState([])
   const [coordinate, setCoordinate] = useState(defaultCoordinate)
   const [currentPos, setCurrentPos] = useState(-1);
   const [currentRotate, setCurrentRotate] = useState({ x: 0, y: 0 });
+  const [currentLabel, setCurrentLabel] = useState(initialLabel);
 
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
@@ -74,7 +82,7 @@ function Map(props) {
 
   const getRotation = (cPos, nPos) => {
     if (!cPos || !nPos) {
-        return { x: 0, y: 0 };
+      return { x: 0, y: 0 };
     }
     const latDiff = cPos.lat - nPos.lat;
     const lngDiff = cPos.lng - nPos.lng;
@@ -93,10 +101,27 @@ function Map(props) {
     result = (Math.floor(result)) * widthOnlyCarIcon;
 
     return { x: result, y: 0 }
-};
+  };
+
+  function dateFormat(date) {
+    const newDate = new Date(date);
+    const options = { month: 'numeric', day: 'numeric', hour: "numeric", minute: "numeric" };
+    return newDate.toLocaleDateString('pt-BR', options);
+  }
+
+  const customLabel = (currentPos) => {
+    const text = `${currentPos + 1 }/${dataCourse.length - 1} - ${dateFormat(dataCourse[currentPos].acquisition_time)}`;
+    setCurrentLabel({
+      label: {
+        text,
+        className: "map__marker-label"
+      }
+    });
+  }
 
   const animate = (newCurrentPos) => {
     const newRotate = getRotation(positions[currentPos], positions[newCurrentPos]);
+    customLabel(currentPos);
     setCurrentRotate(newRotate);
     setCurrentPos(newCurrentPos);
     springs.val.reset();
@@ -137,12 +162,7 @@ function Map(props) {
               {
                 <Marker
                   position={coordinate}
-                  // options={{
-                  //   label: {
-                  //     text: "Hello world",
-                  //     className: "map__marker-label"
-                  //   }
-                  // }}
+                  options={currentLabel}
                   icon={{
                     anchor: { x: 25, y: 26 },
                     origin: currentRotate,
