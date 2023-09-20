@@ -83,9 +83,13 @@ function Map(props) {
   };
 
   useEffect(() => {
-    setTimeout(() => {
+    const timeoutId = setTimeout(() => {
       doUpdate();
     }, 2000);
+
+    return () => {
+      clearTimeout(timeoutId);
+    }
   }, [currentPos]);
 
   useEffect(function () {
@@ -100,7 +104,7 @@ function Map(props) {
             <GoogleMap
               center={coordinate}
               mapContainerStyle={containerStyle}
-              zoom={15}
+              zoom={17}
             >
               {
                 <Marker
