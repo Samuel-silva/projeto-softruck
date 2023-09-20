@@ -14,11 +14,16 @@ const defaultCoordinate = {
   lng: -43.93870860610007
 };
 
+const spriteWidthScale = 18240 / 3;
+const spriteHeightScale = 151 / 3;
+const widthOnlyCarIcon = 152;
+
 function Map(props) {
   const { dataCourse } = props;
   const [positions, setPositions] = useState([])
   const [coordinate, setCoordinate] = useState(defaultCoordinate)
   const [currentPos, setCurrentPos] = useState(-1);
+  const [currentRotate, setCurrentRotate] = useState({ x: 0, y: 0 });
 
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
@@ -67,9 +72,32 @@ function Map(props) {
     },
   });
 
+  const getRotation = (cPos, nPos) => {
+    if (!cPos || !nPos) {
+        return { x: 0, y: 0 };
+    }
+    const latDiff = cPos.lat - nPos.lat;
+    const lngDiff = cPos.lng - nPos.lng;
+
+    let angle = (Math.atan2(lngDiff, latDiff) * 180.0) / Math.PI;
+    let result = 0;
+
+    if (angle < 0) {
+      angle = angle * -1;
+      result = ((angle * (spriteWidthScale / 2)) / 180) + (spriteWidthScale / 2);
+    } else {
+      result = (angle * (spriteWidthScale / 2)) / 180;
+    }
+
+    result = result / widthOnlyCarIcon;
+    result = (Math.floor(result)) * widthOnlyCarIcon;
+
+    return { x: result, y: 0 }
+};
+
   const animate = (newCurrentPos) => {
-    // const newRot = getRotation(positions[curPos], positions[newCurrentPos]);
-    // setCurRot(newRot);
+    const newRotate = getRotation(positions[currentPos], positions[newCurrentPos]);
+    setCurrentRotate(newRotate);
     setCurrentPos(newCurrentPos);
     springs.val.reset();
     springs.val.start();
@@ -117,9 +145,9 @@ function Map(props) {
                   // }}
                   icon={{
                     anchor: { x: 25, y: 26 },
-                    origin: { x: 0, y: 0 },
-                    size: { width: 50.3, height: 50.3 },
-                    scaledSize: { width: 6080, height: 50.3 },
+                    origin: currentRotate,
+                    size: { width: spriteHeightScale, height: spriteHeightScale },
+                    scaledSize: { width: spriteWidthScale, height: spriteHeightScale },
                     url: pin
                   }}
                 />
