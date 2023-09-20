@@ -2,13 +2,14 @@ import './Map.scss';
 import pin from "../../image/cars.png";
 import { useEffect, useState } from 'react';
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
+import { useSpring } from "@react-spring/web";
 
 const containerStyle = {
   width: '100%',
   height: '100%'
 };
 
-const center = {
+const defaultCoordinate = {
   lat: -19.91877543638059,
   lng: -43.93870860610007
 };
@@ -16,7 +17,8 @@ const center = {
 function Map(props) {
   const { dataCourse } = props;
   const [positions, setPositions] = useState([])
-  const [initialMarker, setInitialMarker] = useState(center)
+  const [coordinate, setCoordinate] = useState(defaultCoordinate)
+  const [currentPos, setCurrentPos] = useState(-1);
 
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
@@ -28,6 +30,8 @@ function Map(props) {
     const newInitial = {};
 
     if (data.length > 0) {
+      setCurrentPos(0);
+
       data.forEach(coordinate => {
         const { latitude: lat, longitude: lng } = coordinate;
         list.push({ lat, lng });
@@ -38,9 +42,51 @@ function Map(props) {
         lat: list[0].lat,
         lng: list[0].lng,
       });
-      setInitialMarker(newInitial);
+      setCoordinate(newInitial);
     }
   }
+
+  const springs = useSpring({
+    val: 0,
+    from: { val: 1 },
+    config: { duration: 1900 },
+    onChange: () => {
+      const value = springs.val.get();
+
+      if (currentPos > 0) {
+        const latDiff =
+          (positions[currentPos].lat - positions[currentPos - 1].lat) * value;
+        const lngDiff =
+          (positions[currentPos].lng - positions[currentPos - 1].lng) * value;
+        const newCoord = {
+          lat: positions[currentPos].lat - latDiff,
+          lng: positions[currentPos].lng - lngDiff,
+        };
+        setCoordinate(newCoord);
+      }
+    },
+  });
+
+  const animate = (newCurrentPos) => {
+    // const newRot = getRotation(positions[curPos], positions[newCurrentPos]);
+    // setCurRot(newRot);
+    setCurrentPos(newCurrentPos);
+    springs.val.reset();
+    springs.val.start();
+  };
+
+  const doUpdate = () => {
+    const newCurrentPos = currentPos + 1;
+    if (newCurrentPos >= positions.length) return;
+
+    animate(newCurrentPos);
+  };
+
+  useEffect(() => {
+    setTimeout(() => {
+      doUpdate();
+    }, 2000);
+  }, [currentPos]);
 
   useEffect(function () {
     getCoordinates(dataCourse);
@@ -52,13 +98,13 @@ function Map(props) {
         {
           isLoaded ? (
             <GoogleMap
-              center={initialMarker}
+              center={coordinate}
               mapContainerStyle={containerStyle}
-              zoom={17}
+              zoom={15}
             >
               {
                 <Marker
-                  position={initialMarker}
+                  position={coordinate}
                   // options={{
                   //   label: {
                   //     text: "Hello world",
