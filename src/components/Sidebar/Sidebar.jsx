@@ -2,6 +2,7 @@ import './Sidebar.scss';
 import { Accordion, Alert, ListGroup, Spinner } from 'react-bootstrap';
 import { useFetchVehicle } from '../../api/useFetchVehicle';
 import { useEffect, useState } from 'react';
+import { dateFormat } from '../../util';
 
 function Sidebar(props) {
   const { data, erro, loading } = useFetchVehicle();
@@ -16,12 +17,6 @@ function Sidebar(props) {
       list.push({ vehicle, courses });
     });
     setInfoVehicle(list);
-  }
-
-  const dateFormat = (date) => {
-    const newDate = new Date(date);
-    const options = { year: 'numeric', month: 'numeric', day: 'numeric', hour: "numeric", minute: "numeric" };
-    return newDate.toLocaleDateString('pt-BR', options);
   }
 
   const createRoute = (indexVehicle, indexRoute) => {

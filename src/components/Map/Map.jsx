@@ -3,6 +3,7 @@ import pin from "../../image/cars.png";
 import { useEffect, useState } from 'react';
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 import { useSpring } from "@react-spring/web";
+import { dateFormat } from '../../util';
 
 const containerStyle = {
   width: '100%',
@@ -107,14 +108,9 @@ function Map(props) {
     return { x: result, y: 0 }
   };
 
-  const dateFormat = (date) => {
-    const newDate = new Date(date);
-    const options = { month: 'numeric', day: 'numeric', hour: "numeric", minute: "numeric" };
-    return newDate.toLocaleDateString('pt-BR', options);
-  }
-
   const customLabel = (currentPos) => {
-    const text = `${currentPos + 1}/${dataCourse.length - 1} - ${dateFormat(dataCourse[currentPos].acquisition_time)}`;
+    const options = { month: 'numeric', day: 'numeric', hour: "numeric", minute: "numeric" };
+    const text = `${currentPos + 1}/${dataCourse.length - 1} - ${dateFormat(dataCourse[currentPos].acquisition_time, options)}`;
     setCurrentLabel({
       label: {
         text,
