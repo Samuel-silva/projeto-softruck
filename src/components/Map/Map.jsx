@@ -160,11 +160,7 @@ function Map(props) {
   }, [currentPos]);
 
   useEffect(function () {
-    if (dataCourse.length > 0) {
-      customLabel(-1, true);
-    } else {
-      setCurrentLabel(initialLabel);
-    }
+    setCurrentLabel(initialLabel);
     getCoordinates(dataCourse);
   }, [dataCourse]);
 
