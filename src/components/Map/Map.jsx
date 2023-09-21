@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
 import { useSpring } from "@react-spring/web";
 import { dateFormat } from '../../util';
+import { REACT_APP_GOOGLE_API_KEY } from "../../App";
 
 const containerStyle = {
   width: '100%',
@@ -40,7 +41,7 @@ function Map(props) {
 
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyDFSOp0MewUfhamxmuxlp4mR8ydNo1Xfg4"
+    googleMapsApiKey: REACT_APP_GOOGLE_API_KEY
   })
 
   const getCoordinates = (data) => {
