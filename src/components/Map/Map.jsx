@@ -111,7 +111,7 @@ function Map(props) {
 
   const customLabel = (currentPos) => {
     const options = { month: 'numeric', day: 'numeric', hour: "numeric", minute: "numeric" };
-    const text = `${currentPos + 1}/${dataCourse.length - 1} - ${dateFormat(dataCourse[currentPos].acquisition_time, options)}`;
+    const text = `${currentPos + 2}/${dataCourse.length} - ${dateFormat(dataCourse[currentPos + 1].acquisition_time, options)}`;
     setCurrentLabel({
       label: {
         text,
@@ -160,7 +160,11 @@ function Map(props) {
   }, [currentPos]);
 
   useEffect(function () {
-    setCurrentLabel(initialLabel);
+    if (dataCourse.length > 0) {
+      customLabel(-1, true);
+    } else {
+      setCurrentLabel(initialLabel);
+    }
     getCoordinates(dataCourse);
   }, [dataCourse]);
 
