@@ -9,7 +9,7 @@ function Sidebar(props) {
   const [loadingList, setLoadingList] = useState(true);
   let container;
 
-  function listOfVehicle(data) {
+  const listOfVehicle = (data) => {
     const list = [];
     data.forEach((element) => {
       const { vehicle, courses } = element;
@@ -18,7 +18,7 @@ function Sidebar(props) {
     setInfoVehicle(list);
   }
 
-  function dateFormat(date) {
+  const dateFormat = (date) => {
     const newDate = new Date(date);
     const options = { year: 'numeric', month: 'numeric', day: 'numeric', hour: "numeric", minute: "numeric" };
     return newDate.toLocaleDateString('pt-BR', options);

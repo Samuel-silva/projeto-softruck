@@ -39,7 +39,7 @@ function Map(props) {
     googleMapsApiKey: "AIzaSyDFSOp0MewUfhamxmuxlp4mR8ydNo1Xfg4"
   })
 
-  function getCoordinates(data) {
+  const getCoordinates = (data) => {
     const list = [];
     const newInitial = {};
 
@@ -104,7 +104,7 @@ function Map(props) {
     return { x: result, y: 0 }
   };
 
-  function dateFormat(date) {
+  const dateFormat = (date) => {
     const newDate = new Date(date);
     const options = { month: 'numeric', day: 'numeric', hour: "numeric", minute: "numeric" };
     return newDate.toLocaleDateString('pt-BR', options);
