@@ -1,16 +1,39 @@
-# Getting Started with Create React App
+# Projeto Softruck
+Projeto de teste para o processo de seleção da empresa Softruck.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tecnologias do projeto
+**React:** Optei por utilizar React devido à minha familiaridade com a tecnologia, o que facilitou o desenvolvimento da aplicação com maior velocidade e agilidade.
 
-## Available Scripts
+**Bootstrap:** Escolhi o Bootstrap porque se trata de um site simples, com poucas estilizações, e é uma biblioteca que já domino.
 
-In the project directory, you can run:
+**Google Maps:** Apesar de não ter experiência com a API, escolhi utilizá-la devido à abundância de recursos disponíveis na internet, o que facilitou minha pesquisa para aprender a utilizá-la e a execução da tarefa.
 
-### `npm start`
+**Axios:** Utilizei o Axios para realizar a requisição dos dados da API, pois é uma biblioteca com a qual já estou familiarizado e que oferece facilidade de uso.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Criei um endereço de teste para a visualização do projeto [aqui](https://samuel-silva.github.io/projeto-softruck/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Configuração do projeto
+### Instalação de Pacotes
 
+Após baixar o projeto, é necessário instalar os pacotes. No diretório raiz do projeto, execute o seguinte comando:
+
+```shell
+npm install
+```
+
+### Ambiente de Desenvolvimento
+
+Após concluir a instalação dos pacotes, execute:
+
+```javascript
+npm start
+```
+
+O ambiente de desenvolvimento estará pronto. Abra o seguinte link no seu navegador: http://localhost:3000/
+
+### Requisitos
+
+Para executar este projeto, você precisará ter instalados:
+
+- Node.js v18.17.1
+- npm 9.6.7
