@@ -19,6 +19,8 @@ const spriteHeightScale = 151 / 3;
 const widthOnlyCarIcon = 152 / 3;
 const numberIconsImage = 120;
 
+const speedDefault = 5000;
+
 const initialLabel = {
   label: {
     text: "",
@@ -33,6 +35,7 @@ function Map(props) {
   const [currentPos, setCurrentPos] = useState(-1);
   const [currentRotate, setCurrentRotate] = useState({ x: 0, y: 0 });
   const [currentLabel, setCurrentLabel] = useState(initialLabel);
+  const [speed, setSpeed] = useState(speedDefault)
 
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
@@ -63,7 +66,7 @@ function Map(props) {
   const springs = useSpring({
     val: 0,
     from: { val: 1 },
-    config: { duration: 4000 },
+    config: { duration: speed - 100 },
     onChange: () => {
       const value = springs.val.get();
 
@@ -125,9 +128,22 @@ function Map(props) {
     customLabel(currentPos);
     setCurrentRotate(newRotate);
     setCurrentPos(newCurrentPos);
+    calcSpeed(newCurrentPos);
     springs.val.reset();
     springs.val.start();
   };
+
+  const calcSpeed = (newCurrentPos) => {
+    let calc = speedDefault;
+
+    if (!!dataCourse[newCurrentPos + 1]) {
+      const currentSpeed = dataCourse[newCurrentPos + 1].speed;
+      calc = speedDefault - (Math.floor(currentSpeed) * 25);
+      calc = calc < 2000 ? 2000 : calc;
+    }
+
+    setSpeed(calc);
+  }
 
   const doUpdate = () => {
     const newCurrentPos = currentPos + 1;
@@ -139,7 +155,7 @@ function Map(props) {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       doUpdate();
-    }, 4000);
+    }, speed);
 
     return () => {
       clearTimeout(timeoutId);
