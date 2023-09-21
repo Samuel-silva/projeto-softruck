@@ -87,12 +87,11 @@ function Map(props) {
     const latDiff = cPos.lat - nPos.lat;
     const lngDiff = cPos.lng - nPos.lng;
 
-    let angle = (Math.atan2(lngDiff, latDiff) * 180.0) / Math.PI;
+    const angle = (Math.atan2(lngDiff, latDiff) * 180.0) / Math.PI;
     let result = 0;
 
     if (angle < 0) {
-      angle = angle * -1;
-      result = ((angle * (spriteWidthScale / 2)) / 180) + (spriteWidthScale / 2);
+      result = (((angle * -1) * (spriteWidthScale / 2)) / 180) + (spriteWidthScale / 2);
     } else {
       result = (angle * (spriteWidthScale / 2)) / 180;
     }
