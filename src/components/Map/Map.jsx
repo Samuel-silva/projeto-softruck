@@ -145,6 +145,7 @@ function Map(props) {
   }, [currentPos]);
 
   useEffect(function () {
+    setCurrentLabel(initialLabel);
     getCoordinates(dataCourse);
   }, [dataCourse]);
 
