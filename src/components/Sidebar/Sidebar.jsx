@@ -70,7 +70,7 @@ function Sidebar(props) {
   return (
     <>
       <section className="sidebar px-2 py-4">
-        <h2 className="h6 pb-3"><b>Selecione o veículo e rotas:</b></h2>
+        <h2 className="h6 pb-3"><b>Selecione o veículo e a rota:</b></h2>
         {container}
       </section>
     </>
