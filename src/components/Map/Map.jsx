@@ -16,7 +16,8 @@ const defaultCoordinate = {
 
 const spriteWidthScale = 18240 / 3;
 const spriteHeightScale = 151 / 3;
-const widthOnlyCarIcon = 152;
+const widthOnlyCarIcon = 152 / 3;
+const numberIconsImage = 120;
 
 const initialLabel = {
   label: {
@@ -62,7 +63,7 @@ function Map(props) {
   const springs = useSpring({
     val: 0,
     from: { val: 1 },
-    config: { duration: 1900 },
+    config: { duration: 4000 },
     onChange: () => {
       const value = springs.val.get();
 
@@ -92,12 +93,13 @@ function Map(props) {
 
     if (angle < 0) {
       result = (((angle * -1) * (spriteWidthScale / 2)) / 180) + (spriteWidthScale / 2);
+      result = result / widthOnlyCarIcon;
+      result = (Math.floor(result)) * widthOnlyCarIcon;
     } else {
       result = (angle * (spriteWidthScale / 2)) / 180;
+      result = result / widthOnlyCarIcon;
+      result = ((numberIconsImage / 2) - Math.floor(result)) * widthOnlyCarIcon;
     }
-
-    result = result / widthOnlyCarIcon;
-    result = (Math.floor(result)) * widthOnlyCarIcon;
 
     return { x: result, y: 0 }
   };
@@ -109,7 +111,7 @@ function Map(props) {
   }
 
   const customLabel = (currentPos) => {
-    const text = `${currentPos + 1 }/${dataCourse.length - 1} - ${dateFormat(dataCourse[currentPos].acquisition_time)}`;
+    const text = `${currentPos + 1}/${dataCourse.length - 1} - ${dateFormat(dataCourse[currentPos].acquisition_time)}`;
     setCurrentLabel({
       label: {
         text,
@@ -137,7 +139,7 @@ function Map(props) {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       doUpdate();
-    }, 2000);
+    }, 4000);
 
     return () => {
       clearTimeout(timeoutId);
