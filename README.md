@@ -1,5 +1,5 @@
 # Projeto Softruck
-Projeto de teste para o processo de seleção da empresa Softruck.
+Projeto de teste de front-end para o processo de seleção da empresa Softruck.
 
 ## Tecnologias do projeto
 **React:** Optei por utilizar React devido à minha familiaridade com a tecnologia, o que facilitou o desenvolvimento da aplicação com maior velocidade e agilidade.
