@@ -10,8 +10,6 @@ Projeto de teste de front-end para o processo de seleção da empresa Softruck.
 
 **Axios:** Utilizei o Axios para realizar a requisição dos dados da API, pois é uma biblioteca com a qual já estou familiarizado e que oferece facilidade de uso.
 
-Criei um endereço de teste para a visualização do projeto [aqui](https://samuel-silva.github.io/projeto-softruck/).
-
 ## Configuração do projeto
 ### Instalação de Pacotes
 
@@ -30,6 +28,17 @@ npm start
 ```
 
 O ambiente de desenvolvimento estará pronto. Abra o seguinte link no seu navegador: http://localhost:3000/
+
+### Configuração do JSON Server
+Para criar o servidor, entrar na pasta `db`:
+```
+cd db
+```
+E rodar:
+```
+npm start
+```
+Para verificar se o servidor foi levantado corretarmente, acessar a url [http://localhost:3001](http://localhost:3001) para visualizar no browser.
 
 ### Requisitos
 
