@@ -1,0 +1,1715 @@
+{
+  "vehicles": [
+    {
+      "accOn": "2020-01-21",
+      "courses": [
+        {
+          "distance": 9326,
+          "duration": 3466,
+          "end_at": "2020-01-21T15:23:24Z",
+          "gps": [
+            {
+              "acquisition_time": "2020-01-21T14:25:38Z",
+              "acquisition_time_unix": 1579616738,
+              "address": "Rua Alvaro Leão Carmelo, Jardim Boa Esperança, Vicente de Carvalho, Guarujá, SP, 11460-006, Brasil",
+              "direction": 0,
+              "latitude": -23.963214,
+              "longitude": -46.28054,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T14:27:38Z",
+              "acquisition_time_unix": 1579616858,
+              "direction": 0,
+              "latitude": -23.96325,
+              "longitude": -46.280544,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T14:29:38Z",
+              "acquisition_time_unix": 1579616978,
+              "direction": 0,
+              "latitude": -23.96319,
+              "longitude": -46.280536,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T14:31:38Z",
+              "acquisition_time_unix": 1579617098,
+              "direction": 0,
+              "latitude": -23.963218,
+              "longitude": -46.280566,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T14:33:38Z",
+              "acquisition_time_unix": 1579617218,
+              "direction": 71.8,
+              "latitude": -23.962782,
+              "longitude": -46.278824,
+              "speed": 14.816
+            },
+            {
+              "acquisition_time": "2020-01-21T14:34:48Z",
+              "acquisition_time_unix": 1579617288,
+              "direction": 155.8,
+              "latitude": -23.962299,
+              "longitude": -46.276578,
+              "speed": 13.3344
+            },
+            {
+              "acquisition_time": "2020-01-21T14:35:43Z",
+              "acquisition_time_unix": 1579617343,
+              "direction": 66.8,
+              "latitude": -23.962701,
+              "longitude": -46.276151,
+              "speed": 14.4456
+            },
+            {
+              "acquisition_time": "2020-01-21T14:36:47Z",
+              "acquisition_time_unix": 1579617407,
+              "direction": 116.9,
+              "latitude": -23.96197,
+              "longitude": -46.273192,
+              "speed": 18.3348
+            },
+            {
+              "acquisition_time": "2020-01-21T14:36:53Z",
+              "acquisition_time_unix": 1579617413,
+              "direction": 162.9,
+              "latitude": -23.962278,
+              "longitude": -46.273007,
+              "speed": 27.2244
+            },
+            {
+              "acquisition_time": "2020-01-21T14:37:49Z",
+              "acquisition_time_unix": 1579617469,
+              "direction": 208.1,
+              "latitude": -23.967683,
+              "longitude": -46.271715,
+              "speed": 44.6332
+            },
+            {
+              "acquisition_time": "2020-01-21T14:38:08Z",
+              "acquisition_time_unix": 1579617488,
+              "direction": 156.7,
+              "latitude": -23.96945,
+              "longitude": -46.272499,
+              "speed": 40.9292
+            },
+            {
+              "acquisition_time": "2020-01-21T14:38:13Z",
+              "acquisition_time_unix": 1579617493,
+              "direction": 106.7,
+              "latitude": -23.969783,
+              "longitude": -46.272075,
+              "speed": 43.3368
+            },
+            {
+              "acquisition_time": "2020-01-21T14:38:51Z",
+              "acquisition_time_unix": 1579617531,
+              "direction": 156.3,
+              "latitude": -23.969396,
+              "longitude": -46.26827,
+              "speed": 42.596000000000004
+            },
+            {
+              "acquisition_time": "2020-01-21T14:38:57Z",
+              "acquisition_time_unix": 1579617537,
+              "direction": 210.1,
+              "latitude": -23.969987,
+              "longitude": -46.26833,
+              "speed": 40.00320000000001
+            },
+            {
+              "acquisition_time": "2020-01-21T14:39:04Z",
+              "acquisition_time_unix": 1579617544,
+              "direction": 261.6,
+              "latitude": -23.970339,
+              "longitude": -46.268985,
+              "speed": 42.9664
+            },
+            {
+              "acquisition_time": "2020-01-21T14:39:11Z",
+              "acquisition_time_unix": 1579617551,
+              "direction": 310.6,
+              "latitude": -23.970108,
+              "longitude": -46.269761,
+              "speed": 44.818400000000004
+            },
+            {
+              "acquisition_time": "2020-01-21T14:41:11Z",
+              "acquisition_time_unix": 1579617671,
+              "direction": 341.7,
+              "latitude": -23.956029,
+              "longitude": -46.275067,
+              "speed": 48.152
+            },
+            {
+              "acquisition_time": "2020-01-21T14:43:11Z",
+              "acquisition_time_unix": 1579617791,
+              "direction": 341.3,
+              "latitude": -23.942894,
+              "longitude": -46.279812,
+              "speed": 42.4108
+            },
+            {
+              "acquisition_time": "2020-01-21T14:45:11Z",
+              "acquisition_time_unix": 1579617911,
+              "direction": 343.3,
+              "latitude": -23.9299,
+              "longitude": -46.284281,
+              "speed": 47.226
+            },
+            {
+              "acquisition_time": "2020-01-21T14:47:11Z",
+              "acquisition_time_unix": 1579618031,
+              "direction": 349.9,
+              "latitude": -23.916852,
+              "longitude": -46.288398,
+              "speed": 43.1516
+            },
+            {
+              "acquisition_time": "2020-01-21T14:47:13Z",
+              "acquisition_time_unix": 1579618033,
+              "direction": 359.1,
+              "latitude": -23.91664,
+              "longitude": -46.288417,
+              "speed": 41.67
+            },
+            {
+              "acquisition_time": "2020-01-21T14:47:34Z",
+              "acquisition_time_unix": 1579618054,
+              "direction": 46.3,
+              "latitude": -23.914834,
+              "longitude": -46.287455,
+              "speed": 37.595600000000005
+            },
+            {
+              "acquisition_time": "2020-01-21T14:48:39Z",
+              "acquisition_time_unix": 1579618119,
+              "direction": 94.7,
+              "latitude": -23.913184,
+              "longitude": -46.28177,
+              "speed": 16.4828
+            },
+            {
+              "acquisition_time": "2020-01-21T14:48:43Z",
+              "acquisition_time_unix": 1579618123,
+              "direction": 143.7,
+              "latitude": -23.91327,
+              "longitude": -46.281638,
+              "speed": 14.6308
+            },
+            {
+              "acquisition_time": "2020-01-21T14:49:17Z",
+              "acquisition_time_unix": 1579618157,
+              "direction": 81.9,
+              "latitude": -23.914424,
+              "longitude": -46.281013,
+              "speed": 9.4452
+            },
+            {
+              "acquisition_time": "2020-01-21T14:49:23Z",
+              "acquisition_time_unix": 1579618163,
+              "direction": 34.3,
+              "latitude": -23.91432,
+              "longitude": -46.280867,
+              "speed": 12.2232
+            },
+            {
+              "acquisition_time": "2020-01-21T14:51:23Z",
+              "acquisition_time_unix": 1579618283,
+              "direction": 0,
+              "latitude": -23.91349,
+              "longitude": -46.278857,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T14:53:23Z",
+              "acquisition_time_unix": 1579618403,
+              "direction": 0,
+              "latitude": -23.9135,
+              "longitude": -46.278849,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T14:55:23Z",
+              "acquisition_time_unix": 1579618523,
+              "direction": 0,
+              "latitude": -23.913497,
+              "longitude": -46.278848,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T14:57:23Z",
+              "acquisition_time_unix": 1579618643,
+              "direction": 0,
+              "latitude": -23.913488,
+              "longitude": -46.278836,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T14:59:24Z",
+              "acquisition_time_unix": 1579618764,
+              "direction": 0,
+              "latitude": -23.913478,
+              "longitude": -46.278843,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T15:01:24Z",
+              "acquisition_time_unix": 1579618884,
+              "direction": 0,
+              "latitude": -23.913452,
+              "longitude": -46.278582,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T15:03:24Z",
+              "acquisition_time_unix": 1579619004,
+              "direction": 0,
+              "latitude": -23.913488,
+              "longitude": -46.278654,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T15:05:24Z",
+              "acquisition_time_unix": 1579619124,
+              "direction": 0,
+              "latitude": -23.913492,
+              "longitude": -46.278691,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T15:07:24Z",
+              "acquisition_time_unix": 1579619244,
+              "direction": 0,
+              "latitude": -23.913491,
+              "longitude": -46.278697,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T15:09:24Z",
+              "acquisition_time_unix": 1579619364,
+              "direction": 0,
+              "latitude": -23.913502,
+              "longitude": -46.27867,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T15:11:24Z",
+              "acquisition_time_unix": 1579619484,
+              "direction": 0,
+              "latitude": -23.913457,
+              "longitude": -46.278706,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T15:13:24Z",
+              "acquisition_time_unix": 1579619604,
+              "direction": 0,
+              "latitude": -23.913509,
+              "longitude": -46.278714,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T15:15:24Z",
+              "acquisition_time_unix": 1579619724,
+              "direction": 0,
+              "latitude": -23.913505,
+              "longitude": -46.278682,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T15:17:24Z",
+              "acquisition_time_unix": 1579619844,
+              "direction": 0,
+              "latitude": -23.913515,
+              "longitude": -46.278645,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T15:19:24Z",
+              "acquisition_time_unix": 1579619964,
+              "direction": 0,
+              "latitude": -23.913506,
+              "longitude": -46.278662,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T15:21:24Z",
+              "acquisition_time_unix": 1579620084,
+              "direction": 0,
+              "latitude": -23.913525,
+              "longitude": -46.278711,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T15:23:24Z",
+              "acquisition_time_unix": 1579620204,
+              "address": "Rodovia Manoel Hipólito do Rego, Monte Cabrão, Santos, Santos, SP, 11450170, Brasil",
+              "direction": 0,
+              "latitude": -23.913536,
+              "longitude": -46.278736,
+              "speed": 0
+            }
+          ],
+          "gps_count": 43,
+          "speed_avg": 9.7,
+          "speed_max": 48.152,
+          "start_at": "2020-01-21T14:25:38Z",
+          "stop_points": {
+            "coordinates": [
+              [
+                -46.28054,
+                -23.963214,
+                1579616738
+              ],
+              [
+                -46.278857,
+                -23.91349,
+                1579618283
+              ]
+            ],
+            "crs": {
+              "properties": {
+                "name": "EPSG:4326"
+              },
+              "type": "name"
+            },
+            "type": "MultiPoint"
+          },
+          "stops": 2,
+          "total_stop_time": 2401
+        },
+        {
+          "distance": 7618,
+          "duration": 1666,
+          "end_at": "2020-01-21T19:30:56Z",
+          "gps": [
+            {
+              "acquisition_time": "2020-01-21T19:03:10Z",
+              "acquisition_time_unix": 1579633390,
+              "address": "Rodovia Manoel Hipólito do Rego, Monte Cabrão, Santos, Santos, SP, 11450170, Brasil",
+              "direction": 0,
+              "latitude": -23.913509,
+              "longitude": -46.278702,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T19:05:10Z",
+              "acquisition_time_unix": 1579633510,
+              "direction": 0,
+              "latitude": -23.913522,
+              "longitude": -46.27873,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T19:07:10Z",
+              "acquisition_time_unix": 1579633630,
+              "direction": 0,
+              "latitude": -23.913492,
+              "longitude": -46.278746,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T19:09:10Z",
+              "acquisition_time_unix": 1579633750,
+              "direction": 0,
+              "latitude": -23.91349,
+              "longitude": -46.278763,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T19:11:10Z",
+              "acquisition_time_unix": 1579633870,
+              "direction": 0,
+              "latitude": -23.913526,
+              "longitude": -46.278747,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T19:13:10Z",
+              "acquisition_time_unix": 1579633990,
+              "direction": 231.3,
+              "latitude": -23.914205,
+              "longitude": -46.280715,
+              "speed": 13.89
+            },
+            {
+              "acquisition_time": "2020-01-21T19:15:10Z",
+              "acquisition_time_unix": 1579634110,
+              "direction": 240,
+              "latitude": -23.91782,
+              "longitude": -46.28731,
+              "speed": 25.1872
+            },
+            {
+              "acquisition_time": "2020-01-21T19:16:20Z",
+              "acquisition_time_unix": 1579634180,
+              "direction": 315.4,
+              "latitude": -23.919971,
+              "longitude": -46.287711,
+              "speed": 17.408800000000003
+            },
+            {
+              "acquisition_time": "2020-01-21T19:18:20Z",
+              "acquisition_time_unix": 1579634300,
+              "direction": 162,
+              "latitude": -23.919574,
+              "longitude": -46.287701,
+              "speed": 32.7804
+            },
+            {
+              "acquisition_time": "2020-01-21T19:20:21Z",
+              "acquisition_time_unix": 1579634421,
+              "direction": 162.5,
+              "latitude": -23.933703,
+              "longitude": -46.283121,
+              "speed": 56.486000000000004
+            },
+            {
+              "acquisition_time": "2020-01-21T19:22:21Z",
+              "acquisition_time_unix": 1579634541,
+              "direction": 161.9,
+              "latitude": -23.949612,
+              "longitude": -46.27754,
+              "speed": 54.4488
+            },
+            {
+              "acquisition_time": "2020-01-21T19:24:18Z",
+              "acquisition_time_unix": 1579634658,
+              "direction": 226.5,
+              "latitude": -23.961842,
+              "longitude": -46.273333,
+              "speed": 13.1492
+            },
+            {
+              "acquisition_time": "2020-01-21T19:26:18Z",
+              "acquisition_time_unix": 1579634778,
+              "direction": 251.9,
+              "latitude": -23.963107,
+              "longitude": -46.277786,
+              "speed": 27.594800000000003
+            },
+            {
+              "acquisition_time": "2020-01-21T19:28:18Z",
+              "acquisition_time_unix": 1579634898,
+              "direction": 0,
+              "latitude": -23.964436,
+              "longitude": -46.282696,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T19:28:49Z",
+              "acquisition_time_unix": 1579634929,
+              "direction": 276.6,
+              "latitude": -23.964551,
+              "longitude": -46.283155,
+              "speed": 9.26
+            },
+            {
+              "acquisition_time": "2020-01-21T19:28:56Z",
+              "acquisition_time_unix": 1579634936,
+              "direction": 331,
+              "latitude": -23.964449,
+              "longitude": -46.283236,
+              "speed": 11.112
+            },
+            {
+              "acquisition_time": "2020-01-21T19:30:56Z",
+              "acquisition_time_unix": 1579635056,
+              "address": "Rua Alvaro Leão Carmelo, Jardim Boa Esperança, Vicente de Carvalho, Guarujá, SP, 11460-006, Brasil",
+              "direction": 73.9,
+              "latitude": -23.963248,
+              "longitude": -46.280632,
+              "speed": 7.7784
+            }
+          ],
+          "gps_count": 17,
+          "speed_avg": 16.5,
+          "speed_max": 56.486000000000004,
+          "start_at": "2020-01-21T19:03:10Z",
+          "stop_points": {
+            "coordinates": [
+              [
+                -46.278702,
+                -23.913509,
+                1579633390
+              ],
+              [
+                -46.282696,
+                -23.964436,
+                1579634898
+              ]
+            ],
+            "crs": {
+              "properties": {
+                "name": "EPSG:4326"
+              },
+              "type": "name"
+            },
+            "type": "MultiPoint"
+          },
+          "stops": 2,
+          "total_stop_time": 631
+        },
+        {
+          "distance": 490,
+          "duration": 372,
+          "end_at": "2020-01-21T23:57:08Z",
+          "gps": [
+            {
+              "acquisition_time": "2020-01-21T23:50:56Z",
+              "acquisition_time_unix": 1579650656,
+              "address": "Rua Alvaro Leão Carmelo, Jardim Boa Esperança, Vicente de Carvalho, Guarujá, SP, 11460-006, Brasil",
+              "direction": 0,
+              "latitude": -23.963217,
+              "longitude": -46.280566,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T23:52:56Z",
+              "acquisition_time_unix": 1579650776,
+              "direction": 0,
+              "latitude": -23.963229,
+              "longitude": -46.28056,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T23:54:56Z",
+              "acquisition_time_unix": 1579650896,
+              "direction": 0,
+              "latitude": -23.963406,
+              "longitude": -46.279144,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T23:55:08Z",
+              "acquisition_time_unix": 1579650908,
+              "direction": 259.9,
+              "latitude": -23.963543,
+              "longitude": -46.27931,
+              "speed": 15.0012
+            },
+            {
+              "acquisition_time": "2020-01-21T23:57:08Z",
+              "acquisition_time_unix": 1579651028,
+              "address": "Rua Antonio Eduardo Pirani, Jardim Alvorada, Vicente de Carvalho, Guarujá, SP, 11460-006, Brasil",
+              "direction": 0,
+              "latitude": -23.964515,
+              "longitude": -46.282903,
+              "speed": 0
+            }
+          ],
+          "gps_count": 5,
+          "speed_avg": 4.7,
+          "speed_max": 15.0012,
+          "start_at": "2020-01-21T23:50:56Z",
+          "stop_points": {
+            "coordinates": [
+              [
+                -46.280566,
+                -23.963217,
+                1579650656
+              ],
+              [
+                -46.282903,
+                -23.964515,
+                1579651028
+              ]
+            ],
+            "crs": {
+              "properties": {
+                "name": "EPSG:4326"
+              },
+              "type": "name"
+            },
+            "type": "MultiPoint"
+          },
+          "stops": 2,
+          "total_stop_time": 252
+        },
+        {
+          "distance": 8851,
+          "duration": 3169,
+          "end_at": "2020-01-22T00:50:47Z",
+          "gps": [
+            {
+              "acquisition_time": "2020-01-21T23:57:58Z",
+              "acquisition_time_unix": 1579651078,
+              "address": "Rua Antonio Eduardo Pirani, Jardim Alvorada, Vicente de Carvalho, Guarujá, SP, 11460-006, Brasil",
+              "direction": 0,
+              "latitude": -23.964503,
+              "longitude": -46.282916,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-21T23:58:20Z",
+              "acquisition_time_unix": 1579651100,
+              "direction": 307.3,
+              "latitude": -23.964536,
+              "longitude": -46.283366,
+              "speed": 15.742
+            },
+            {
+              "acquisition_time": "2020-01-21T23:59:03Z",
+              "acquisition_time_unix": 1579651143,
+              "direction": 261.5,
+              "latitude": -23.96329,
+              "longitude": -46.285136,
+              "speed": 22.5944
+            },
+            {
+              "acquisition_time": "2020-01-21T23:59:31Z",
+              "acquisition_time_unix": 1579651171,
+              "direction": 317.3,
+              "latitude": -23.963578,
+              "longitude": -46.287312,
+              "speed": 27.9652
+            },
+            {
+              "acquisition_time": "2020-01-21T23:59:35Z",
+              "acquisition_time_unix": 1579651175,
+              "direction": 9.5,
+              "latitude": -23.963309,
+              "longitude": -46.287378,
+              "speed": 29.632
+            },
+            {
+              "acquisition_time": "2020-01-21T23:59:41Z",
+              "acquisition_time_unix": 1579651181,
+              "direction": 60.3,
+              "latitude": -23.962975,
+              "longitude": -46.287069,
+              "speed": 29.0764
+            },
+            {
+              "acquisition_time": "2020-01-22T00:00:08Z",
+              "acquisition_time_unix": 1579651208,
+              "direction": 13.2,
+              "latitude": -23.962151,
+              "longitude": -46.285822,
+              "speed": 13.3344
+            },
+            {
+              "acquisition_time": "2020-01-22T00:00:16Z",
+              "acquisition_time_unix": 1579651216,
+              "direction": 326.4,
+              "latitude": -23.961852,
+              "longitude": -46.285955,
+              "speed": 15.742
+            },
+            {
+              "acquisition_time": "2020-01-22T00:02:16Z",
+              "acquisition_time_unix": 1579651336,
+              "direction": 0,
+              "latitude": -23.958743,
+              "longitude": -46.288763,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:04:16Z",
+              "acquisition_time_unix": 1579651456,
+              "direction": 0,
+              "latitude": -23.958758,
+              "longitude": -46.28876,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:06:16Z",
+              "acquisition_time_unix": 1579651576,
+              "direction": 0,
+              "latitude": -23.958525,
+              "longitude": -46.288933,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:08:16Z",
+              "acquisition_time_unix": 1579651696,
+              "direction": 0,
+              "latitude": -23.958393,
+              "longitude": -46.289049,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:10:16Z",
+              "acquisition_time_unix": 1579651816,
+              "direction": 0,
+              "latitude": -23.958397,
+              "longitude": -46.289046,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:12:16Z",
+              "acquisition_time_unix": 1579651936,
+              "direction": 0,
+              "latitude": -23.958075,
+              "longitude": -46.289343,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:14:16Z",
+              "acquisition_time_unix": 1579652056,
+              "direction": 0,
+              "latitude": -23.957854,
+              "longitude": -46.289387,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:16:16Z",
+              "acquisition_time_unix": 1579652176,
+              "direction": 325.3,
+              "latitude": -23.957629,
+              "longitude": -46.289656,
+              "speed": 20.1868
+            },
+            {
+              "acquisition_time": "2020-01-22T00:16:36Z",
+              "acquisition_time_unix": 1579652196,
+              "direction": 280.4,
+              "latitude": -23.956756,
+              "longitude": -46.290595,
+              "speed": 25.3724
+            },
+            {
+              "acquisition_time": "2020-01-22T00:16:43Z",
+              "acquisition_time_unix": 1579652203,
+              "direction": 229.9,
+              "latitude": -23.956863,
+              "longitude": -46.290989,
+              "speed": 22.409200000000002
+            },
+            {
+              "acquisition_time": "2020-01-22T00:17:58Z",
+              "acquisition_time_unix": 1579652278,
+              "direction": 285.9,
+              "latitude": -23.957713,
+              "longitude": -46.292113,
+              "speed": 21.853600000000004
+            },
+            {
+              "acquisition_time": "2020-01-22T00:18:11Z",
+              "acquisition_time_unix": 1579652291,
+              "direction": 239.7,
+              "latitude": -23.957272,
+              "longitude": -46.2928,
+              "speed": 23.3352
+            },
+            {
+              "acquisition_time": "2020-01-22T00:18:48Z",
+              "acquisition_time_unix": 1579652328,
+              "direction": 175.9,
+              "latitude": -23.95858,
+              "longitude": -46.29423,
+              "speed": 12.038
+            },
+            {
+              "acquisition_time": "2020-01-22T00:19:45Z",
+              "acquisition_time_unix": 1579652385,
+              "direction": 177.8,
+              "latitude": -23.959902,
+              "longitude": -46.292807,
+              "speed": 17.594
+            },
+            {
+              "acquisition_time": "2020-01-22T00:20:16Z",
+              "acquisition_time_unix": 1579652416,
+              "direction": 169.8,
+              "latitude": -23.960598,
+              "longitude": -46.293486,
+              "speed": 13.1492
+            },
+            {
+              "acquisition_time": "2020-01-22T00:20:57Z",
+              "acquisition_time_unix": 1579652457,
+              "direction": 111.9,
+              "latitude": -23.962303,
+              "longitude": -46.291638,
+              "speed": 16.4828
+            },
+            {
+              "acquisition_time": "2020-01-22T00:21:29Z",
+              "acquisition_time_unix": 1579652489,
+              "direction": 110.8,
+              "latitude": -23.961737,
+              "longitude": -46.290734,
+              "speed": 16.4828
+            },
+            {
+              "acquisition_time": "2020-01-22T00:23:29Z",
+              "acquisition_time_unix": 1579652609,
+              "direction": 0,
+              "latitude": -23.962316,
+              "longitude": -46.289952,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:25:29Z",
+              "acquisition_time_unix": 1579652729,
+              "direction": 150.9,
+              "latitude": -23.963149,
+              "longitude": -46.289252,
+              "speed": 7.9636000000000005
+            },
+            {
+              "acquisition_time": "2020-01-22T00:26:09Z",
+              "acquisition_time_unix": 1579652769,
+              "direction": 160.8,
+              "latitude": -23.963509,
+              "longitude": -46.289255,
+              "speed": 10.5564
+            },
+            {
+              "acquisition_time": "2020-01-22T00:26:13Z",
+              "acquisition_time_unix": 1579652773,
+              "direction": 86.2,
+              "latitude": -23.963573,
+              "longitude": -46.289131,
+              "speed": 10.000800000000002
+            },
+            {
+              "acquisition_time": "2020-01-22T00:26:19Z",
+              "acquisition_time_unix": 1579652779,
+              "direction": 37.6,
+              "latitude": -23.963489,
+              "longitude": -46.28904,
+              "speed": 10.3712
+            },
+            {
+              "acquisition_time": "2020-01-22T00:26:23Z",
+              "acquisition_time_unix": 1579652783,
+              "direction": 336,
+              "latitude": -23.963397,
+              "longitude": -46.28905,
+              "speed": 11.4824
+            },
+            {
+              "acquisition_time": "2020-01-22T00:28:23Z",
+              "acquisition_time_unix": 1579652903,
+              "direction": 0,
+              "latitude": -23.963179,
+              "longitude": -46.289235,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:30:15Z",
+              "acquisition_time_unix": 1579653015,
+              "direction": 283.3,
+              "latitude": -23.961554,
+              "longitude": -46.29093,
+              "speed": 19.816399999999998
+            },
+            {
+              "acquisition_time": "2020-01-22T00:30:25Z",
+              "acquisition_time_unix": 1579653025,
+              "direction": 329.1,
+              "latitude": -23.961419,
+              "longitude": -46.291359,
+              "speed": 18.8904
+            },
+            {
+              "acquisition_time": "2020-01-22T00:30:33Z",
+              "acquisition_time_unix": 1579653033,
+              "direction": 281.4,
+              "latitude": -23.961233,
+              "longitude": -46.29159,
+              "speed": 14.2604
+            },
+            {
+              "acquisition_time": "2020-01-22T00:30:37Z",
+              "acquisition_time_unix": 1579653037,
+              "direction": 155.3,
+              "latitude": -23.961335,
+              "longitude": -46.291625,
+              "speed": 13.89
+            },
+            {
+              "acquisition_time": "2020-01-22T00:32:10Z",
+              "acquisition_time_unix": 1579653130,
+              "direction": 66.8,
+              "latitude": -23.961536,
+              "longitude": -46.290641,
+              "speed": 17.0384
+            },
+            {
+              "acquisition_time": "2020-01-22T00:32:15Z",
+              "acquisition_time_unix": 1579653135,
+              "direction": 121.3,
+              "latitude": -23.961553,
+              "longitude": -46.290454,
+              "speed": 20.372
+            },
+            {
+              "acquisition_time": "2020-01-22T00:34:15Z",
+              "acquisition_time_unix": 1579653255,
+              "direction": 0,
+              "latitude": -23.96292,
+              "longitude": -46.288908,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:36:15Z",
+              "acquisition_time_unix": 1579653375,
+              "direction": 131.3,
+              "latitude": -23.963478,
+              "longitude": -46.287697,
+              "speed": 24.631600000000002
+            },
+            {
+              "acquisition_time": "2020-01-22T00:36:29Z",
+              "acquisition_time_unix": 1579653389,
+              "direction": 71.5,
+              "latitude": -23.963849,
+              "longitude": -46.286827,
+              "speed": 31.854400000000002
+            },
+            {
+              "acquisition_time": "2020-01-22T00:37:14Z",
+              "acquisition_time_unix": 1579653434,
+              "direction": 118.3,
+              "latitude": -23.963515,
+              "longitude": -46.284416,
+              "speed": 19.6312
+            },
+            {
+              "acquisition_time": "2020-01-22T00:39:14Z",
+              "acquisition_time_unix": 1579653554,
+              "direction": 0,
+              "latitude": -23.964788,
+              "longitude": -46.28325,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:40:01Z",
+              "acquisition_time_unix": 1579653601,
+              "direction": 69.9,
+              "latitude": -23.964871,
+              "longitude": -46.283055,
+              "speed": 14.2604
+            },
+            {
+              "acquisition_time": "2020-01-22T00:42:01Z",
+              "acquisition_time_unix": 1579653721,
+              "direction": 74.2,
+              "latitude": -23.962246,
+              "longitude": -46.274436,
+              "speed": 19.446
+            },
+            {
+              "acquisition_time": "2020-01-22T00:42:24Z",
+              "acquisition_time_unix": 1579653744,
+              "direction": 128.2,
+              "latitude": -23.961996,
+              "longitude": -46.27317,
+              "speed": 22.224
+            },
+            {
+              "acquisition_time": "2020-01-22T00:44:24Z",
+              "acquisition_time_unix": 1579653864,
+              "direction": 161.5,
+              "latitude": -23.974511,
+              "longitude": -46.268566,
+              "speed": 46.1148
+            },
+            {
+              "acquisition_time": "2020-01-22T00:46:22Z",
+              "acquisition_time_unix": 1579653982,
+              "direction": 77,
+              "latitude": -23.984668,
+              "longitude": -46.264389,
+              "speed": 22.9648
+            },
+            {
+              "acquisition_time": "2020-01-22T00:46:27Z",
+              "acquisition_time_unix": 1579653987,
+              "direction": 30.9,
+              "latitude": -23.984477,
+              "longitude": -46.264141,
+              "speed": 24.4464
+            },
+            {
+              "acquisition_time": "2020-01-22T00:46:33Z",
+              "acquisition_time_unix": 1579653993,
+              "direction": 340.8,
+              "latitude": -23.984142,
+              "longitude": -46.264126,
+              "speed": 30.372799999999998
+            },
+            {
+              "acquisition_time": "2020-01-22T00:48:33Z",
+              "acquisition_time_unix": 1579654113,
+              "direction": 354.1,
+              "latitude": -23.973562,
+              "longitude": -46.268687,
+              "speed": 17.0384
+            },
+            {
+              "acquisition_time": "2020-01-22T00:48:38Z",
+              "acquisition_time_unix": 1579654118,
+              "direction": 28.2,
+              "latitude": -23.973333,
+              "longitude": -46.268648,
+              "speed": 14.816
+            },
+            {
+              "acquisition_time": "2020-01-22T00:48:46Z",
+              "acquisition_time_unix": 1579654126,
+              "direction": 96.6,
+              "latitude": -23.973251,
+              "longitude": -46.26846,
+              "speed": 9.630400000000002
+            },
+            {
+              "acquisition_time": "2020-01-22T00:50:47Z",
+              "acquisition_time_unix": 1579654247,
+              "address": "Rua Comendador Jose de Almeida, Jardim Conceiçãozinha, Vicente de Carvalho, Guarujá, SP, 11495-011, Brasil",
+              "direction": 0,
+              "latitude": -23.973034,
+              "longitude": -46.265922,
+              "speed": 0
+            }
+          ],
+          "gps_count": 54,
+          "speed_avg": 10.1,
+          "speed_max": 46.1148,
+          "start_at": "2020-01-21T23:57:58Z",
+          "stop_points": {
+            "coordinates": [
+              [
+                -46.282916,
+                -23.964503,
+                1579651078
+              ],
+              [
+                -46.288763,
+                -23.958743,
+                1579651336
+              ],
+              [
+                -46.289952,
+                -23.962316,
+                1579652609
+              ],
+              [
+                -46.289235,
+                -23.963179,
+                1579652903
+              ],
+              [
+                -46.288908,
+                -23.96292,
+                1579653255
+              ],
+              [
+                -46.28325,
+                -23.964788,
+                1579653554
+              ],
+              [
+                -46.265922,
+                -23.973034,
+                1579654247
+              ]
+            ],
+            "crs": {
+              "properties": {
+                "name": "EPSG:4326"
+              },
+              "type": "name"
+            },
+            "type": "MultiPoint"
+          },
+          "stops": 7,
+          "total_stop_time": 1261
+        },
+        {
+          "distance": 10750,
+          "duration": 4066,
+          "end_at": "2020-01-22T01:59:55Z",
+          "gps": [
+            {
+              "acquisition_time": "2020-01-22T00:52:09Z",
+              "acquisition_time_unix": 1579654329,
+              "address": "Rua Comendador Jose de Almeida, Jardim Conceiçãozinha, Vicente de Carvalho, Guarujá, SP, 11495-011, Brasil",
+              "direction": 0,
+              "latitude": -23.973013,
+              "longitude": -46.265751,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:54:09Z",
+              "acquisition_time_unix": 1579654449,
+              "direction": 0,
+              "latitude": -23.972662,
+              "longitude": -46.265655,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:56:09Z",
+              "acquisition_time_unix": 1579654569,
+              "direction": 0,
+              "latitude": -23.971718,
+              "longitude": -46.266123,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T00:58:09Z",
+              "acquisition_time_unix": 1579654689,
+              "direction": 0,
+              "latitude": -23.971517,
+              "longitude": -46.266167,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T01:00:09Z",
+              "acquisition_time_unix": 1579654809,
+              "direction": 0,
+              "latitude": -23.971579,
+              "longitude": -46.266171,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T01:02:09Z",
+              "acquisition_time_unix": 1579654929,
+              "direction": 0,
+              "latitude": -23.971968,
+              "longitude": -46.266023,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T01:04:09Z",
+              "acquisition_time_unix": 1579655049,
+              "direction": 0,
+              "latitude": -23.972182,
+              "longitude": -46.26582,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T01:06:09Z",
+              "acquisition_time_unix": 1579655169,
+              "direction": 0,
+              "latitude": -23.972206,
+              "longitude": -46.265875,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T01:08:09Z",
+              "acquisition_time_unix": 1579655289,
+              "direction": 0,
+              "latitude": -23.97217,
+              "longitude": -46.26587,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T01:10:09Z",
+              "acquisition_time_unix": 1579655409,
+              "direction": 207.8,
+              "latitude": -23.97273,
+              "longitude": -46.265602,
+              "speed": 2.778
+            },
+            {
+              "acquisition_time": "2020-01-22T01:12:09Z",
+              "acquisition_time_unix": 1579655529,
+              "direction": 266.2,
+              "latitude": -23.973056,
+              "longitude": -46.266519,
+              "speed": 6.1116
+            },
+            {
+              "acquisition_time": "2020-01-22T01:14:09Z",
+              "acquisition_time_unix": 1579655649,
+              "direction": 349.4,
+              "latitude": -23.971882,
+              "longitude": -46.269163,
+              "speed": 7.408
+            },
+            {
+              "acquisition_time": "2020-01-22T01:14:22Z",
+              "acquisition_time_unix": 1579655662,
+              "direction": 7.7,
+              "latitude": -23.971572,
+              "longitude": -46.269253,
+              "speed": 11.112
+            },
+            {
+              "acquisition_time": "2020-01-22T01:14:59Z",
+              "acquisition_time_unix": 1579655699,
+              "direction": 53.6,
+              "latitude": -23.970477,
+              "longitude": -46.268721,
+              "speed": 28.335600000000003
+            },
+            {
+              "acquisition_time": "2020-01-22T01:16:33Z",
+              "acquisition_time_unix": 1579655793,
+              "direction": 102.3,
+              "latitude": -23.965983,
+              "longitude": -46.260569,
+              "speed": 27.2244
+            },
+            {
+              "acquisition_time": "2020-01-22T01:16:43Z",
+              "acquisition_time_unix": 1579655803,
+              "direction": 40.7,
+              "latitude": -23.965984,
+              "longitude": -46.25998,
+              "speed": 18.3348
+            },
+            {
+              "acquisition_time": "2020-01-22T01:16:50Z",
+              "acquisition_time_unix": 1579655810,
+              "direction": 287,
+              "latitude": -23.965719,
+              "longitude": -46.260152,
+              "speed": 22.224
+            },
+            {
+              "acquisition_time": "2020-01-22T01:18:39Z",
+              "acquisition_time_unix": 1579655919,
+              "direction": 340.7,
+              "latitude": -23.969373,
+              "longitude": -46.27247,
+              "speed": 38.3364
+            },
+            {
+              "acquisition_time": "2020-01-22T01:18:44Z",
+              "acquisition_time_unix": 1579655924,
+              "direction": 29.5,
+              "latitude": -23.968905,
+              "longitude": -46.272407,
+              "speed": 37.2252
+            },
+            {
+              "acquisition_time": "2020-01-22T01:18:53Z",
+              "acquisition_time_unix": 1579655933,
+              "direction": 79.9,
+              "latitude": -23.968416,
+              "longitude": -46.271676,
+              "speed": 41.299600000000005
+            },
+            {
+              "acquisition_time": "2020-01-22T01:19:00Z",
+              "acquisition_time_unix": 1579655940,
+              "direction": 132.2,
+              "latitude": -23.96866,
+              "longitude": -46.270885,
+              "speed": 47.9668
+            },
+            {
+              "acquisition_time": "2020-01-22T01:20:00Z",
+              "acquisition_time_unix": 1579656000,
+              "direction": 188.4,
+              "latitude": -23.975877,
+              "longitude": -46.268148,
+              "speed": 30.0024
+            },
+            {
+              "acquisition_time": "2020-01-22T01:20:05Z",
+              "acquisition_time_unix": 1579656005,
+              "direction": 236.3,
+              "latitude": -23.976193,
+              "longitude": -46.268406,
+              "speed": 35.0028
+            },
+            {
+              "acquisition_time": "2020-01-22T01:21:03Z",
+              "acquisition_time_unix": 1579656063,
+              "direction": 291.2,
+              "latitude": -23.977645,
+              "longitude": -46.272417,
+              "speed": 14.816
+            },
+            {
+              "acquisition_time": "2020-01-22T01:23:03Z",
+              "acquisition_time_unix": 1579656183,
+              "direction": 323.2,
+              "latitude": -23.970652,
+              "longitude": -46.278443,
+              "speed": 50.5596
+            },
+            {
+              "acquisition_time": "2020-01-22T01:25:03Z",
+              "acquisition_time_unix": 1579656303,
+              "direction": 289.7,
+              "latitude": -23.963773,
+              "longitude": -46.2872,
+              "speed": 39.818000000000005
+            },
+            {
+              "acquisition_time": "2020-01-22T01:25:07Z",
+              "acquisition_time_unix": 1579656307,
+              "direction": 344.7,
+              "latitude": -23.963486,
+              "longitude": -46.287457,
+              "speed": 37.2252
+            },
+            {
+              "acquisition_time": "2020-01-22T01:25:11Z",
+              "acquisition_time_unix": 1579656311,
+              "direction": 34.1,
+              "latitude": -23.963148,
+              "longitude": -46.287383,
+              "speed": 34.6324
+            },
+            {
+              "acquisition_time": "2020-01-22T01:25:37Z",
+              "acquisition_time_unix": 1579656337,
+              "direction": 348,
+              "latitude": -23.962056,
+              "longitude": -46.28584,
+              "speed": 20.1868
+            },
+            {
+              "acquisition_time": "2020-01-22T01:27:03Z",
+              "acquisition_time_unix": 1579656423,
+              "direction": 300.7,
+              "latitude": -23.958282,
+              "longitude": -46.289117,
+              "speed": 14.0752
+            },
+            {
+              "acquisition_time": "2020-01-22T01:29:03Z",
+              "acquisition_time_unix": 1579656543,
+              "direction": 0,
+              "latitude": -23.957893,
+              "longitude": -46.289398,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T01:30:41Z",
+              "acquisition_time_unix": 1579656641,
+              "direction": 253.2,
+              "latitude": -23.956716,
+              "longitude": -46.290798,
+              "speed": 20.001600000000003
+            },
+            {
+              "acquisition_time": "2020-01-22T01:32:41Z",
+              "acquisition_time_unix": 1579656761,
+              "direction": 0,
+              "latitude": -23.957307,
+              "longitude": -46.291951,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T01:34:41Z",
+              "acquisition_time_unix": 1579656881,
+              "direction": 0,
+              "latitude": -23.957314,
+              "longitude": -46.291976,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T01:36:42Z",
+              "acquisition_time_unix": 1579657002,
+              "direction": 0,
+              "latitude": -23.957318,
+              "longitude": -46.291984,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T01:38:42Z",
+              "acquisition_time_unix": 1579657122,
+              "direction": 230.8,
+              "latitude": -23.957474,
+              "longitude": -46.292046,
+              "speed": 13.5196
+            },
+            {
+              "acquisition_time": "2020-01-22T01:38:51Z",
+              "acquisition_time_unix": 1579657131,
+              "direction": 303.3,
+              "latitude": -23.957521,
+              "longitude": -46.292367,
+              "speed": 16.668
+            },
+            {
+              "acquisition_time": "2020-01-22T01:39:03Z",
+              "acquisition_time_unix": 1579657143,
+              "direction": 248,
+              "latitude": -23.957256,
+              "longitude": -46.292795,
+              "speed": 16.297600000000003
+            },
+            {
+              "acquisition_time": "2020-01-22T01:39:59Z",
+              "acquisition_time_unix": 1579657199,
+              "direction": 198.3,
+              "latitude": -23.959063,
+              "longitude": -46.294795,
+              "speed": 19.260800000000003
+            },
+            {
+              "acquisition_time": "2020-01-22T01:40:03Z",
+              "acquisition_time_unix": 1579657203,
+              "direction": 148.3,
+              "latitude": -23.959245,
+              "longitude": -46.294736,
+              "speed": 21.853600000000004
+            },
+            {
+              "acquisition_time": "2020-01-22T01:41:15Z",
+              "acquisition_time_unix": 1579657275,
+              "direction": 89.6,
+              "latitude": -23.96232,
+              "longitude": -46.291585,
+              "speed": 17.0384
+            },
+            {
+              "acquisition_time": "2020-01-22T01:41:20Z",
+              "acquisition_time_unix": 1579657280,
+              "direction": 41.6,
+              "latitude": -23.96216,
+              "longitude": -46.291378,
+              "speed": 22.224
+            },
+            {
+              "acquisition_time": "2020-01-22T01:41:34Z",
+              "acquisition_time_unix": 1579657294,
+              "direction": 89.6,
+              "latitude": -23.961751,
+              "longitude": -46.290825,
+              "speed": 20.9276
+            },
+            {
+              "acquisition_time": "2020-01-22T01:41:41Z",
+              "acquisition_time_unix": 1579657301,
+              "direction": 138.5,
+              "latitude": -23.961968,
+              "longitude": -46.290442,
+              "speed": 25.002000000000002
+            },
+            {
+              "acquisition_time": "2020-01-22T01:43:41Z",
+              "acquisition_time_unix": 1579657421,
+              "direction": 139.4,
+              "latitude": -23.962884,
+              "longitude": -46.289518,
+              "speed": 7.5931999999999995
+            },
+            {
+              "acquisition_time": "2020-01-22T01:44:00Z",
+              "acquisition_time_unix": 1579657440,
+              "direction": 193.9,
+              "latitude": -23.963266,
+              "longitude": -46.289226,
+              "speed": 9.4452
+            },
+            {
+              "acquisition_time": "2020-01-22T01:44:12Z",
+              "acquisition_time_unix": 1579657452,
+              "direction": 142.2,
+              "latitude": -23.963589,
+              "longitude": -46.289218,
+              "speed": 10.3712
+            },
+            {
+              "acquisition_time": "2020-01-22T01:44:16Z",
+              "acquisition_time_unix": 1579657456,
+              "direction": 91.2,
+              "latitude": -23.963622,
+              "longitude": -46.289113,
+              "speed": 11.852800000000002
+            },
+            {
+              "acquisition_time": "2020-01-22T01:44:21Z",
+              "acquisition_time_unix": 1579657461,
+              "direction": 42.8,
+              "latitude": -23.963556,
+              "longitude": -46.289008,
+              "speed": 10.926800000000002
+            },
+            {
+              "acquisition_time": "2020-01-22T01:46:21Z",
+              "acquisition_time_unix": 1579657581,
+              "direction": 0,
+              "latitude": -23.963274,
+              "longitude": -46.289304,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T01:48:21Z",
+              "acquisition_time_unix": 1579657701,
+              "direction": 305.7,
+              "latitude": -23.961717,
+              "longitude": -46.290801,
+              "speed": 2.2224
+            },
+            {
+              "acquisition_time": "2020-01-22T01:48:38Z",
+              "acquisition_time_unix": 1579657718,
+              "direction": 276.9,
+              "latitude": -23.96165,
+              "longitude": -46.291018,
+              "speed": 14.6308
+            },
+            {
+              "acquisition_time": "2020-01-22T01:48:47Z",
+              "acquisition_time_unix": 1579657727,
+              "direction": 325.8,
+              "latitude": -23.961462,
+              "longitude": -46.291402,
+              "speed": 17.9644
+            },
+            {
+              "acquisition_time": "2020-01-22T01:48:51Z",
+              "acquisition_time_unix": 1579657731,
+              "direction": 266,
+              "latitude": -23.961388,
+              "longitude": -46.29152,
+              "speed": 14.4456
+            },
+            {
+              "acquisition_time": "2020-01-22T01:48:55Z",
+              "acquisition_time_unix": 1579657735,
+              "direction": 156.8,
+              "latitude": -23.961467,
+              "longitude": -46.291529,
+              "speed": 12.4084
+            },
+            {
+              "acquisition_time": "2020-01-22T01:50:49Z",
+              "acquisition_time_unix": 1579657849,
+              "direction": 71.1,
+              "latitude": -23.961541,
+              "longitude": -46.290671,
+              "speed": 18.3348
+            },
+            {
+              "acquisition_time": "2020-01-22T01:52:56Z",
+              "acquisition_time_unix": 1579657976,
+              "direction": 0,
+              "latitude": -23.962984,
+              "longitude": -46.288922,
+              "speed": 0
+            },
+            {
+              "acquisition_time": "2020-01-22T01:54:56Z",
+              "acquisition_time_unix": 1579658096,
+              "direction": 118.5,
+              "latitude": -23.963295,
+              "longitude": -46.288543,
+              "speed": 21.853600000000004
+            },
+            {
+              "acquisition_time": "2020-01-22T01:55:30Z",
+              "acquisition_time_unix": 1579658130,
+              "direction": 75.4,
+              "latitude": -23.963896,
+              "longitude": -46.286894,
+              "speed": 30.372799999999998
+            },
+            {
+              "acquisition_time": "2020-01-22T01:56:25Z",
+              "acquisition_time_unix": 1579658185,
+              "direction": 137.2,
+              "latitude": -23.963561,
+              "longitude": -46.284385,
+              "speed": 9.4452
+            },
+            {
+              "acquisition_time": "2020-01-22T01:57:34Z",
+              "acquisition_time_unix": 1579658254,
+              "direction": 75.7,
+              "latitude": -23.964922,
+              "longitude": -46.283118,
+              "speed": 10.3712
+            },
+            {
+              "acquisition_time": "2020-01-22T01:57:43Z",
+              "acquisition_time_unix": 1579658263,
+              "direction": 16.7,
+              "latitude": -23.964735,
+              "longitude": -46.282956,
+              "speed": 9.8156
+            },
+            {
+              "acquisition_time": "2020-01-22T01:57:54Z",
+              "acquisition_time_unix": 1579658274,
+              "direction": 64.3,
+              "latitude": -23.96446,
+              "longitude": -46.28261,
+              "speed": 19.446
+            },
+            {
+              "acquisition_time": "2020-01-22T01:59:55Z",
+              "acquisition_time_unix": 1579658395,
+              "address": "Rua Idalino Pines, Jardim Boa Esperança, Vicente de Carvalho, Guarujá, SP, 11460-006, Brasil",
+              "direction": 0,
+              "latitude": -23.963164,
+              "longitude": -46.27787,
+              "speed": 0
+            }
+          ],
+          "gps_count": 64,
+          "speed_avg": 9.5,
+          "speed_max": 50.5596,
+          "start_at": "2020-01-22T00:52:09Z",
+          "stop_points": {
+            "coordinates": [
+              [
+                -46.265751,
+                -23.973013,
+                1579654329
+              ],
+              [
+                -46.289398,
+                -23.957893,
+                1579656543
+              ],
+              [
+                -46.291951,
+                -23.957307,
+                1579656761
+              ],
+              [
+                -46.289304,
+                -23.963274,
+                1579657581
+              ],
+              [
+                -46.288922,
+                -23.962984,
+                1579657976
+              ],
+              [
+                -46.27787,
+                -23.963164,
+                1579658395
+              ]
+            ],
+            "crs": {
+              "properties": {
+                "name": "EPSG:4326"
+              },
+              "type": "name"
+            },
+            "type": "MultiPoint"
+          },
+          "stops": 6,
+          "total_stop_time": 1779
+        }
+      ],
+      "gps_count": 230,
+      "num_courses": 5,
+      "perc_fixed": 1,
+      "speed_avg": 10.5,
+      "speed_max": 56.486,
+      "stops": 19,
+      "total_distance": 37035,
+      "total_stop_time": 6324,
+      "total_time": 12739,
+      "vehicle": {
+        "color": "#FFEB3B",
+        "picture": {
+          "address": ""
+        },
+        "plate": "BPZ4295",
+        "vin": "34405892075660"
+      }
+    }
+  ]
+}
