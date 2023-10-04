@@ -3,12 +3,13 @@ import { Accordion, Alert, ListGroup, Spinner } from 'react-bootstrap';
 import { useFetchVehicle } from '../../api/useFetchVehicle';
 import { useEffect, useState } from 'react';
 import { dateFormat } from '../../util';
+import * as Icon from 'react-bootstrap-icons';
 
 function Sidebar(props) {
   const { data, erro, loading } = useFetchVehicle();
   const [infoVehicle, setInfoVehicle] = useState([]);
   const [loadingList, setLoadingList] = useState(true);
-  let container;
+  let container, imgCar;
 
   const listOfVehicle = (data) => {
     const list = [];
@@ -48,11 +49,17 @@ function Sidebar(props) {
         )
       })
 
+      if (data.vehicle.picture.address) {
+        imgCar = <img className='sidebar__car-image--img w-100' src={data.vehicle.picture.address} alt={data.vehicle.plate} />
+      } else {
+        imgCar = <Icon.CarFrontFill size={20} />
+      }
+
       return (
         <Accordion.Item eventKey={data.vehicle.plate} key={index}>
           <Accordion.Header className='sidebar__item'>
-            <div className='sidebar__car-image d-flex aligm-items-center justify-conten-center'>
-              <img className='sidebar__car-image--img w-100' src={data.vehicle.picture.address} alt={data.vehicle.plate} />
+            <div className='sidebar__car-image d-flex align-items-center justify-content-center'>
+              {imgCar}
             </div>
             <span className='ps-2 text-dark'><b>Placa:</b> {data.vehicle.plate}</span>
           </Accordion.Header>
